@@ -1,0 +1,17 @@
+{
+  "name": "AdonisJS",
+  "dockerComposeFile": "compose.yaml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "forwardPorts": [3333],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "jripouteau.adonis-vscode-extension",
+        "AdonisJS.vscode-edge",
+        "jripouteau.japa-vscode",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
